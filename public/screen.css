@@ -7,3 +7,72 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.all-cats{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img{
+  max-width: 20em;
+  min-height: 20em;
+  margin: 1em;
+  border: solid 1px darkgrey;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  border: 0px;
+  width: 88%;
+  margin: .5em;
+  padding: .5em;
+  font-weight: 600;
+  color: grey;
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  padding: 1em;
+}
+
+.nav-logo{
+  font-family: helvetica;
+  font-size: 30px;
+  font: bold;
+  font-weight: 800;
+  flex: 7;
+}
+
+.nav-right{
+  justify-content: flex-end;
+  font-family: helvetica;
+  flex: 1;
+  font: bold;
+}
+
+.foot-bar{
+  display:flex;
+  border: 1px solid lightgrey;
+  flex-direction: row;
+}
+
+.foot-left{
+  text-align: left;
+  font-family: helvetica;
+  color: darkgray;
+  flex-grow: 1;
+}
+
+.foot-right{
+  text-align: right;
+  font-family: helvetica;
+  color: darkgray;
+  flex-grow: 3;
+}
